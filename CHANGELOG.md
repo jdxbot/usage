@@ -1,5 +1,25 @@
 # Changelog
 
+## [6.8.1](https://github.com/jdx/usage/compare/v6.8.0..v6.8.1) - 2026-09-09
+
+### 🐛 Bug Fixes
+
+- **(bash)** preserve colon-prefixed completion words by [@jdx](https://github.com/jdx) in [#1405](https://github.com/jdx/usage/pull/1405)
+
+### ⚡ Performance
+
+- **(cli)** shrink help sorting without allocating cached keys by [@jdx](https://github.com/jdx) in [#1396](https://github.com/jdx/usage/pull/1396)
+- **(cli)** make advanced help and runtime spec serialization optional by [@jdx](https://github.com/jdx) in [#1399](https://github.com/jdx/usage/pull/1399)
+- **(cli)** share help sorting and skip unused rendering work by [@jdx](https://github.com/jdx) in [#1400](https://github.com/jdx/usage/pull/1400)
+- **(cli)** avoid color analysis for plain help by [@jdx](https://github.com/jdx) in [#1401](https://github.com/jdx/usage/pull/1401)
+
+### 📦️ Dependency Updates
+
+- lock file maintenance by [@renovate[bot]](https://github.com/renovate[bot]) in [#1398](https://github.com/jdx/usage/pull/1398)
+- update jdx/renovate-config digest to 8cabc2e by [@renovate[bot]](https://github.com/renovate[bot]) in [#1406](https://github.com/jdx/usage/pull/1406)
+- update zizmorcore/zizmor-action action to v0.6.3 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1403](https://github.com/jdx/usage/pull/1403)
+- update dependency go to v1.27.1 by [@renovate[bot]](https://github.com/renovate[bot]) in [#1407](https://github.com/jdx/usage/pull/1407)
+
 ## [6.8.0](https://github.com/jdx/usage/compare/v6.7.1..v6.8.0) - 2026-09-06
 
 ### 🚀 Features
